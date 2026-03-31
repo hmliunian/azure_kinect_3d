@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Output data
+output/
+
+# Claude
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large model files
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+
+# Large 3D files
+*.obj
+*.ply
+*.glb
+
+# Third party generated
+third_party/*/checkpoints/
+third_party/*/.venv/
+third_party/*/patching/
